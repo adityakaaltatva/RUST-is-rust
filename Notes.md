@@ -38,3 +38,10 @@ If a type you want to use isn’t in the prelude, you have to bring that type in
 => println! is a macro that prints a string to the screen
 
 // In rust variables are by default immutable 
+
+// let mut a =8 // makes this as mutable 
+
+
+The & indicates that this argument is a reference, which gives you a way to let multiple parts of your code access one piece of data without needing to copy that data into memory multiple times. References are a complex feature, and one of Rust’s major advantages is how safe and easy it is to use references
+
+
